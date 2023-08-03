@@ -60,7 +60,7 @@
 
 @media screen and (max-width: 900px) {
     .cabecalho {
-        margin: 2em;
+        margin: 1em 0.5em;
     }
 
     .cabecalho__pesquisa,
@@ -70,5 +70,23 @@
 
     .cabecalho-lista__item-botao {
         display: block;
+        margin-right: 0.5em;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cabecalho-lista__item-botao {
+        padding: 0.5em 0.5em;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cabecalho-lista {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        margin: 0 1em;
     }
 }

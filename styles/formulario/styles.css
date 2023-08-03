@@ -145,7 +145,7 @@
 
 @media screen and (max-width: 900px) {
     .formulario {
-        width: 70%;
+        width: 80%;
     }
 
     .formulario__etapas {
@@ -158,5 +158,54 @@
 
     .container {
         margin: 2em;
+    }
+
+    .banner {
+        height: 25vh;
+    }
+
+    .banner__titulo {
+        font-size: 22px;
+        line-height: normal;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .banner__titulo {
+        font-size: 18px;
+    }
+
+    .formulario__titulo-texto {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .formulario__container {
+        margin: 2em 0;
+    }
+
+    .formulario {
+        width: 90%;
+    }
+
+    .banner {
+        height: 20vh;
+    }
+
+    .formulario__campo {
+        margin-bottom: 1.5em;
+    }
+
+    .container {
+        margin: 1em;
+    }
+
+    .campo__escrita {
+        width: 80%;
+        padding: 0.8em;
+        margin-top: .5em;
+    
     }
 }
